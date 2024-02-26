@@ -49,13 +49,6 @@ CREATE TABLE Dept_emp(
 )
 ;
 
-SELECT * FROM Employees
-SELECT * FROM Titles
-SELECT * FROM Departments
-SELECT * FROM Dept_manager
-SELECT * FROM Salaries
-SELECT * FROM Dept_emp
-
 -- List the employee number, last name, first name, sex, and salary of each employee
 SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary
 FROM Employees e 
